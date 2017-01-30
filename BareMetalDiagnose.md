@@ -42,7 +42,14 @@ Check programm output status, must be 0 if the memory is working properly.
 
 ### HDD
 * Fully clear the hdd from previouse customer
-``
+```
+  for DISK in $(hdlist)
+  do
+    echo "Clearing ${DISK}"
+    parted -s ${DISK} mklabel gpt
+    dd if=/dev/zero of=${DISK} bs=512 count=1
+  done
+```
 * Check smart values
  **Reallocated Sectors Count** must be less than 100
 * Check speed for disk 
