@@ -1,35 +1,24 @@
-Develop and implement monitoring tool (~ 1000 servers, redis,python) and improve availability time.
-Implement configuration management (python,bash,ansible)
-Expereince with building hight avaibility service (billing, ~100K domains name servers)
-Design and implemet Cloud VPS product. based on cephfs and openstack.
+##Resposibilities 
+* Lead for maintenance team 
+* Provide day-to-day technical leadership, task coordination and task execution 
+* Automation of processes and daily routines
+* Lead Incident processes. Insure Company’s SLAs are met.
+* Troubleshooting and improving existing infrastructure and systems.
+* hardware provisioning and ordering 
+* formulate meaningful business metrics;
 
+## Goals
+* Implement monitoring for infrastructure: from hardware, to operating systems health, to software usage and business metrics.
+* Develop and implement monitoring tool (~ 1000 servers, redis,python) from hardware, to operating systems health, to business metrics. Improve availability time.
+* Implement configuration management (python,bash,ansible)
+* Expereince with building hight avaibility service (billing, ~100K domains name servers)
+* Design and implemet Cloud VPS product. based on cephfs and openstack.
 
-Develo,preseach diag 
+## Knowleges
+* High university degree
+* 4 years of experience leading a Maintenance team, insuring operational on-call schedules have proper coverage* 5+ years analyzing, troubleshooting, supporting and resolving issues with linux/freebsd servers,  micro-services and multi-tiered application requiring 24x7 availability.  
+* 5+ years analyzing, troubleshooting, supporting and resolving issues with linux/freebsd servers,  micro-services and multi-tiered application requiring 24x7 availability.
+* 4+ year experience of configuring and usage virtualization (KVM,quemu, openvz, freebsd/Jail) 
+* 2+ years’ experience with DevOps tools (Docker, GitLab, Ansible, SaltStack etc.)
+* 3+ years’ experience in Networking and Security.
 
-hardware
-stability
-scalability
-virtualization
-take care of  services 
-postmortem pipeline 
-cloud
-CI/CD
-programming
-on-call rotation 
-
-
-https://alexgaynor.net/2016/dec/23/looking-for-work/
-Solid sys admin (Linux, yes please!) and networking experience
-Programming (depth in ONE language helps) and scripting (Python/ruby/bash/node.js) chops
-Configuration management prowess
-Hands on experience in cloud architecture and if this means AWS, go ahead, get certified in it and strut. your.stuff. Oh yeah, and be humble, too. Heh.
-
-Mastery in at least one programming language, Perl and Java are a plus;
-Experience with building, operating and maintaining complex and scalable systems;
-Solid understanding of Software Engineering and Computer Science principles;
-Solid foundation in Linux administration and troubleshooting;
-Proven experience with automation. Knowledge of configuration management tools like Puppet or Chef is a plus;
-Additional experience in Networking, Security or Storage is a plus;
-Be able to understand and formulate meaningful business metrics;
-Creative and not afraid to step outside of your comfort zone;
-Fluent in the English language both spoken and written.
