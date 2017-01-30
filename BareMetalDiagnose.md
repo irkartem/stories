@@ -146,7 +146,7 @@ raid_status_cciss() {
 
 ## Our stats
 
- The script checks ~10 server per day in average. 
+ The script checks 323 server per month in average. 124 servers per month marked as broken and datacenter engineer repair it. We do not sell server which does not pass the test. 
 
 ### HDD smart stats
 I have 1800 smart report from different used HDD disk. There are 103 models.
@@ -158,3 +158,6 @@ Power_On_Hours | 407 | 24033 |59363|  12910 | the biggest value 6 years. hmm
 Reallocated_Sector_Ct | 0 | 92.3496 |10728| 496 | 100 it is good threshold
 Raw_Read_Error_Rate | 0 |32416965|4294967295| 126899820.1 | small values is not an option, if fail then it will be huge count
 SSD Power_On_Hours | 10 |23159  |918502| 134915| > 2 year for ssd not bad
+
+Our script work in DCIManager panel for datacenter infrastructure. 
+
