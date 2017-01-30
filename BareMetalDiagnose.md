@@ -152,4 +152,6 @@ raid_status_cciss() {
 I have 1800 smart report from different used HDD disk. There are 103 models.
 
 ATTRIBUTE_NAME |min | Expected value | max| Variance | Standard Deviation
+--- | --- | --- | --- | --- | --- 
+--- | --- |
 Temperature_Celsius | 14 | 25.81 |40| 16.73 | 4.09 
