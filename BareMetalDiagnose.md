@@ -80,7 +80,9 @@ Check programm output status, must be 0 if the memory is working properly.
 * Check smart values
  - **Media_Wearout_Indicator** it is percentage of disk lifetime. For new disk it will be 100. Allowed all values > 10;
  - **Reallocated_Sector_Ct** allowed values < 100
+
 ### Raid status
+
 ```
 detect_raid_type() {
   RAIDSTR=$(lspci | grep -i raid)
@@ -136,8 +138,18 @@ raid_status_cciss() {
   fi
 }
 ```
-##Net
+
+##Network
 *Check network downloads speed only it must be >300mbit 
+
 `curl -k --progress-bar -w "%{speed_download}"  -o /dev/null "($CGI_MGR_URLv4)/speedtest_cgi?id=($AUTH_ID)&func=server.speedtest"`
 
 ## Our stats
+
+ The script checks ~10 server per day in average. 
+
+### HDD smart stats
+I have 1800 smart report from different used HDD disk. There are 103 models.
+
+ATTRIBUTE_NAME | Expected value | Variance  
+Temperature_Celsius | 23 | 3 
