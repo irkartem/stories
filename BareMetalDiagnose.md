@@ -5,16 +5,20 @@ Server became free status or we got the new servers. Automate system boots serve
 ##CPU
 * Check cpu overheating status
 * Check cpu is stable
+
 For CPU stress we use mprime-bin programm, and runing it for 30 minutes.
+
 ``` 
 /usr/bin/timeout 30m /opt/mprime -t 
 /bin/grep -i error /root/result.txt
 ```
-Just kill process after 30 min. Every minute check CPU temp, from ipmi sensors. Our valid temp is less than 60C.
-And also you need to check /proc/kmsg and mprime results.txt file for some complex CPU Error.
+
+Every minute check CPU temp, from ipmi sensors. The allowed **cpu temp is less than 60C**.
+Also you need to check /proc/kmsg and mprime results.txt file for some complex CPU Error.
 
 ##RAM
 * Some cells can be broken
+
 Need to check every RAM cell, does it work property. Classical Memtet+ tool does not suitable, becouse work separately and did not provide result.
 But test memory at operation system level, does not check all RAM cells. It is weakness of our purpose. We choised metested utility. Usage:
 
@@ -26,6 +30,7 @@ Check programm output status, must be 0 if the memory is working properly.
 
 ##Storage
 ### Lookup for installed disks by bash:
+
 ```
  hdlist() {
   HDLIST=$(ls /dev/sd?)
@@ -41,7 +46,9 @@ Check programm output status, must be 0 if the memory is working properly.
 ```
 
 ### HDD
+
 * Fully clear the hdd from previouse customer
+
 ```
   for DISK in $(hdlist)
   do
@@ -50,10 +57,15 @@ Check programm output status, must be 0 if the memory is working properly.
     dd if=/dev/zero of=${DISK} bs=512 count=1
   done
 ```
+
 * Check smart values
+
  **Reallocated Sectors Count** must be less than 100
+
 * Check speed for disk 
+
  Speed valuate at 3 differnt place of disk. At place with offset 4Gb from start, at the middle and 4Gb from the end of disk. For each offset we run this function:
+
 ```
                 sysctl -w vm.drop_caches=3 > /dev/null
                 zcav -c 1 -s ${SKIP_COUNT} -r ${OFFSET} -l /tmp/zcav1.log -f ${DISK}
@@ -66,8 +78,8 @@ Check programm output status, must be 0 if the memory is working properly.
 
 ### SSD
 * Check smart values
- **Media_Wearout_Indicator** it is percentage of disk lifetime. For new disk it will be 100. Allowed all values > 10;
- **Reallocated_Sector_Ct** allowed values < 100
+ - **Media_Wearout_Indicator** it is percentage of disk lifetime. For new disk it will be 100. Allowed all values > 10;
+ - **Reallocated_Sector_Ct** allowed values < 100
 ### Raid status
 ```
 detect_raid_type() {
