@@ -25,26 +25,19 @@ Check programm output status, must be 0 if the memory is working properly.
 
 ##Storage
 ### Lookup for installed disk by bash
-> hdlist() {
->  HDLIST=$(ls /dev/sd?)
->
->  HDLIST="${HDLIST} $(ls /dev/cciss/c0d? 2>/dev/null)"
->
->  REAL_HDLIST=""
->
->  for disk in ${HDLIST}; do
->
->    if head -c0 ${disk} 2>/dev/null; then
->
->      REAL_HDLIST="${REAL_HDLIST} ${disk}"
->
->    fi
->
->  done
->
->  echo "${REAL_HDLIST}"
->
->}
+```
+ hdlist() {
+  HDLIST=$(ls /dev/sd?)
+  HDLIST="${HDLIST} $(ls /dev/cciss/c0d? 2>/dev/null)"
+  REAL_HDLIST=""
+  for disk in ${HDLIST}; do
+    if head -c0 ${disk} 2>/dev/null; then
+      REAL_HDLIST="${REAL_HDLIST} ${disk}"
+    fi
+  done
+  echo "${REAL_HDLIST}"
+}
+```
 
 ### HDD
 * Check smart values
