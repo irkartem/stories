@@ -1,3 +1,6 @@
+I am Artem Artemiev head of Maintenance team for JSC First (http://firstvds.ru | http://firstvds.ru)
+
+
 ##Resposibilities 
 * Lead for maintenance team 
 * Provide day-to-day technical leadership, task coordination and task execution 
