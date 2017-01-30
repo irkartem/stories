@@ -31,4 +31,4 @@ I am Artem Artemiev head of Maintenance team for JSC First (http://firstvds.ru h
 
 **Phone +79086626110 (time UTC+8)**
 
-** artemirk@gmail.com**
+artemirk@gmail.com
