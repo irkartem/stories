@@ -32,3 +32,13 @@ I am Artem Artemiev head of Maintenance team for JSC First (http://firstvds.ru h
 **Phone +79086626110 (time UTC+8)**
 
 artemirk@gmail.com
+
+2009 - Current (8 years) Head of Maintenance team 
+- Build and maintenance HA billing system(based on billmanager, mysql), 3 separate server with replication data. Outage budget 5 min per year. 
+- Implement fault tolerance name servers (~170 000 domains), Outage not possible. 3 servers with keepalived switch 
+- reduced the average time of opening products, from 70 min to 5 min 
+- boost services uptime, implementing monitoring and writing checklists for every fault type 
+- Introduce software delivery pipeline, for reliable work after update (gitlab, docker, CD). 
+- developed and started in production HA VPS based on openstack and cephfs. 
+
+
