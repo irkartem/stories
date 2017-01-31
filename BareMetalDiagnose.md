@@ -1,7 +1,18 @@
-It is 2017 year, but people who prefer dedicated servers still live :). I am working at hosting company and we need to make diagnosis for servers before providing to customer.
-Will talk about diagnose bare metal servers.
+# Table of contents
+1. [CPU check](#cpu)
+2. [RAM check](#ram)
+3. [Storage check](#storage)
+    1. [Lookup disks list](#lookup-for-installed-disks-by-bash)
+    2. [HDD](#hdd)
+    3. [SSD](#ssd)
+    3. [Raid](#raid-status)
+4. [Network](#network)
+5. [Statistics](#Statistics)
+It is 2017 year, but people who prefer dedicated servers still live :). I am working  in hosting company and we make diagnosis for servers before providing to customer. 
+Let's talk about diagnosis bare metal servers.
 
-Server became free status or we got the new servers. Automate system boots server via PXE with linux kernel and run diagnostics script. What does the script try to determine:
+We have an unattended server,it can became free status or we got the new servers. 
+Automatic system boots server via PXE with linux kernel and is starting diagnostics script. What does the script try to determine
 ##CPU
 * Check cpu overheating status
 * Check cpu is stable
@@ -144,7 +155,7 @@ raid_status_cciss() {
 
 `curl -k --progress-bar -w "%{speed_download}"  -o /dev/null "($CGI_MGR_URLv4)/speedtest_cgi?id=($AUTH_ID)&func=server.speedtest"`
 
-## Our stats
+##Statistics
 
  The script checks 323 servers per month in average. 124 servers per month marked as broken. We do not sell server which does not pass the test. 
  Datacenter engineer change broken disks, repair the funs. CPU and RAM we change under warranty usually. 
@@ -161,6 +172,7 @@ Raw_Read_Error_Rate | 0 |32416965|4294967295| 126899820.1 | small values is not 
 SSD Power_On_Hours | 10 |23159  |918502| 134915| > 2 years for ssd not bad
 
 Hdd with Raw_Read_Error_Rate attribute 
+
 ATTRIBUTE_NAME |min | Expected value | max| Standard Deviation | Descr
 --- | --- | --- | --- | --- | --- | --- 
 Power_On_Hours|0|25040|57178|12030|Broken hdd works 33 months +-16 months. Not intresting
