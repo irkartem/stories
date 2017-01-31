@@ -140,24 +140,30 @@ raid_status_cciss() {
 ```
 
 ##Network
-*Check network downloads speed only it must be >300mbit 
+*Check network download speed -  must be >300mbit
 
 `curl -k --progress-bar -w "%{speed_download}"  -o /dev/null "($CGI_MGR_URLv4)/speedtest_cgi?id=($AUTH_ID)&func=server.speedtest"`
 
 ## Our stats
 
- The script checks 323 server per month in average. 124 servers per month marked as broken and datacenter engineer repair it. We do not sell server which does not pass the test. 
+ The script checks 323 servers per month in average. 124 servers per month marked as broken. We do not sell server which does not pass the test. 
+ Datacenter engineer change broken disks, repair the funs. CPU and RAM we change under warranty usually. 
 
 ### HDD smart stats
-I have 1800 smart report from different used HDD disk. There are 103 models.
+I have 1800 smart reports from different HDD disks. There are 103 models.
 
 ATTRIBUTE_NAME |min | Expected value | max| Standard Deviation | Descr
 --- | --- | --- | --- | --- | --- | --- 
 Temperature_Celsius | 14 | 25.81 |40|  4.09 | 25C very good temp for disk
 Power_On_Hours | 407 | 24033 |59363|  12910 | the biggest value 6 years. hmm
 Reallocated_Sector_Ct | 0 | 92.3496 |10728| 496 | 100 it is good threshold
-Raw_Read_Error_Rate | 0 |32416965|4294967295| 126899820.1 | small values is not an option, if fail then it will be huge count
-SSD Power_On_Hours | 10 |23159  |918502| 134915| > 2 year for ssd not bad
+Raw_Read_Error_Rate | 0 |32416965|4294967295| 126899820.1 | small values is not an option, if fail happens then it will be huge count of it
+SSD Power_On_Hours | 10 |23159  |918502| 134915| > 2 years for ssd not bad
+
+Hdd with Raw_Read_Error_Rate attribute 
+ATTRIBUTE_NAME |min | Expected value | max| Standard Deviation | Descr
+--- | --- | --- | --- | --- | --- | --- 
+Power_On_Hours|0|25040|57178|12030|Broken hdd works 33 months +-16 months. Not intresting
 
 Our script work in DCIManager panel for datacenter infrastructure. 
 
