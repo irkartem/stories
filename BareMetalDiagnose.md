@@ -8,6 +8,8 @@
     3. [Raid](#raid-status)
 4. [Network](#network)
 5. [Statistics](#Statistics)
+
+
 It is 2017 year, but people who prefer dedicated servers still live :). I am working  in hosting company and we make diagnosis for servers before providing to customer. 
 Let's talk about diagnosis bare metal servers.
 
@@ -28,10 +30,10 @@ Every minute check CPU temp, from ipmi sensors. The allowed **cpu temp is less t
 Also you need to check /proc/kmsg and mprime results.txt file for some complex CPU Error.
 
 ##RAM
-* Some cells can be broken
+* Some RAM cells can be broken
 
-Need to check every RAM cell, does it work property. Classical Memtet+ tool does not suitable, becouse work separately and did not provide result.
-But test memory at operation system level, does not check all RAM cells. It is weakness of our purpose. We choised metested utility. Usage:
+Need to check every RAM cell. Classical Memtet+ tool does not suitable, because work on bare metal and did not provide result in free versions.
+But test memory at operation system level, does not check all RAM cells. It is weakness of our purpose. We chose memtested tool. Usage:
 
 ```
 memtester `cat /proc/meminfo |grep MemFree | awk '{print $2-1024}'`k 5
@@ -41,6 +43,8 @@ Check programm output status, must be 0 if the memory is working properly.
 
 ##Storage
 ### Lookup for installed disks by bash:
+
+Find any devices at /dev/sd? and /dev/cciss/c0d?, and check every element whether it is disk.
 
 ```
  hdlist() {
@@ -75,7 +79,7 @@ Check programm output status, must be 0 if the memory is working properly.
 
 * Check speed for disk 
 
- Speed valuate at 3 differnt place of disk. At place with offset 4Gb from start, at the middle and 4Gb from the end of disk. For each offset we run this function:
+ The speed valued at 3 different place of disk. At place with offset 4Gb from start, at the middle and 4Gb from the end of disk. For each offset we run this function
 
 ```
                 sysctl -w vm.drop_caches=3 > /dev/null
@@ -93,6 +97,7 @@ Check programm output status, must be 0 if the memory is working properly.
  - **Reallocated_Sector_Ct** allowed values < 100
 
 ### Raid status
+Identify model raid and check the raid status. Must be optimal.
 
 ```
 detect_raid_type() {
@@ -151,14 +156,15 @@ raid_status_cciss() {
 ```
 
 ##Network
+
 *Check network download speed -  must be >300mbit
 
 `curl -k --progress-bar -w "%{speed_download}"  -o /dev/null "($CGI_MGR_URLv4)/speedtest_cgi?id=($AUTH_ID)&func=server.speedtest"`
 
 ##Statistics
 
- The script checks 323 servers per month in average. 124 servers per month marked as broken. We do not sell server which does not pass the test. 
- Datacenter engineer change broken disks, repair the funs. CPU and RAM we change under warranty usually. 
+The script checks 323 servers per month in average. 124 servers per month marked as broken. We do not sell server which does not pass the test. 
+Datacenter engineers change disks, repair the fans. CPU and RAM we change under warranty usually. 
 
 ### HDD smart stats
 I have 1800 smart reports from different HDD disks. There are 103 models.
