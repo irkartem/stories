@@ -10,7 +10,7 @@ First decision was use default named. But it has some problem:
 Pros:
 * domain data situated at file
 
-Was very unstable 
+Was very unstable solution. Named does not work with big count of domains 
 
 #nsd
 
