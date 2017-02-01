@@ -186,3 +186,5 @@ Power_On_Hours|0|25040|57178|12030|Broken hdd works 33 months +-16 months. Not i
 Our script work in DCIManager panel for datacenter infrastructure. 
 
 How did you check the bare-metal server? 
+
+Artem Artemiev artemirk@gmail.com 
