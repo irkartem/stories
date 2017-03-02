@@ -71,6 +71,16 @@ Find any devices at /dev/sd? and /dev/cciss/c0d?, and check every element whethe
     parted -s ${DISK} mklabel gpt
     dd if=/dev/zero of=${DISK} bs=512 count=1
   done
+  if [ "($FULL_HDD_CLEAR)" = "YES" ]; then
+  echo "Clearing disks full (very slow)"
+  wget -O /dev/null -q --no-check-certificate "${STATEURL}&info=slowhddclear"
+  for DISK in $(hdlist)
+  do
+    echo "Clearing ${DISK}"
+    dd if=/dev/zero of=${DISK} bs=1M
+  done
+  fi
+
 ```
 
 * Check smart values

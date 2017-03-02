@@ -25,9 +25,9 @@ I am Artem Artemiev head of Maintenance team for JSC First (http://firstvds.ru h
 * 3+ years’ experience in Networking and Security.
 
 ## Skills
-* keep abreast of my service work, and ensure stabilitybreast of services working, and ensure stability 
+* keep abreast of my services, and ensure stability of services
 * I can migrate hundreds of vpses (kvm, vz) without downtime between datacenters and countries on a large scale.
-* I always automate all repeated work with ansible, python... 
+* I automate all repeated work with ansible, python... 
 
 **Phone +79086626110 (time UTC+8)**
 
