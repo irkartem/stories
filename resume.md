@@ -2,8 +2,9 @@ I am Artem Artemiev head of Maintenance team for JSC First (http://firstvds.ru h
 
 
 ##Resposibilities 
+* I responsible for latency, performance, efficiency
 * Lead for maintenance team 
-* Provide day-to-day technical leadership, task coordination and task execution 
+* Emergency response, and capacity planning
 * Automation of processes and daily routines
 * Lead Incident processes. Insure Company’s SLAs are met.
 * Troubleshooting and improving existing infrastructure and systems.
@@ -11,10 +12,10 @@ I am Artem Artemiev head of Maintenance team for JSC First (http://firstvds.ru h
 * formulate meaningful business metrics;
 
 ## Goals
-* Develop and implement monitoring tool (~ 1000 servers, redis,python) from hardware, to operating systems health, to business metrics. Improve availability time (99.9 %).
+* Develop and implement monitoring tool (~ 1000 servers, redis,python) from hardware, to operating systems health, to business metrics. Improve availability time (99.8 %).
 * Implement configuration management (python,bash,ansible)
 * Expereince with building hight avaibility service (billing, ~100K domains name servers), no downtime services. 
-* Design and implemet Cloud VPS product. based on cephfs and openstack.
+* Implemet Cloud VPS product. based on cephfs and openstack.
 
 ## Retrospective
 * High university degree
