@@ -19,7 +19,7 @@ I am Artem Artemiev head of Maintenance team for JSC First (http://firstvds.ru h
 
 ## Retrospective
 * High university degree
-* 4 years of experience leading a Maintenance team, insuring operational on-call schedules have proper coverage* 5+ years analyzing, troubleshooting, supporting and resolving issues with linux/freebsd servers,  micro-services and multi-tiered application requiring 24x7 availability.  
+* 6 years of experience leading a Maintenance team, insuring operational on-call schedules have proper coverage* 5+ years analyzing, troubleshooting, supporting and resolving issues with linux/freebsd servers,  micro-services and multi-tiered application requiring 24x7 availability.  
 * 5+ years analyzing, troubleshooting, supporting and resolving issues with linux/freebsd servers,  micro-services and multi-tiered application requiring 24x7 availability.
 * 4+ year experience of configuring and usage virtualization (KVM,quemu, openvz, freebsd/Jail) 
 * 2+ years’ experience with DevOps tools (Docker, GitLab, Ansible, SaltStack etc.)
