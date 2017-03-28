@@ -24,9 +24,9 @@ You can reach me at +79086626110 (UTC+8) or by artemirk@gmail.com
 * 2+ years experience with DevOps tools: Docker, GitLab, Ansible, SaltStack and others
 * 3+ years experience in Networking and Security.
 ## Skills
-*I can handle with care and be responsible for reliability of services
-*I can migrate hundreds of VPSes (kvm, ovz) without downtime between datacenters and countries on a large scale.
-*I automate all repeated work with ansible, python,docker…
+* I can handle with care and be responsible for reliability of services
+* I can migrate hundreds of VPSes (kvm, ovz) without downtime between datacenters and countries on a large scale.
+* I automate all repeated work with ansible, python,docker…
 ## Employment
 2009 - Current (8 years) Head of Maintenance team
 - Building and maintenancing HA billing system (based on billmanager, mysql), 3 separate server with replication data. Outage budget 5 min per year.
