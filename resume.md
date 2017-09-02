@@ -8,7 +8,7 @@ You can reach me at +79086626110 (UTC+8) or by artemirk@gmail.com
 * Took part in building high availability service: billing of ~100K domains name servers without downtime service.
 * Implemented Cloud VPS product. based on cephfs and openstack.
 * Built "Payback" statistic system for calculate hardware payback value, which allow to find unprofitable resources and boost payback for ~ 30%
-* Reengineered VPS control panel system for VMmanager product. (Libvirtd, 200 servers, 8000 VPSes), boos reliability for customers VPSes.
+* Reengineered VPS control panel system for VMmanager product. (Libvirtd, 300 servers, 18000 VPSes), boos reliability for customers VPSes.
 ## Resposibilities
 * I’m responsible for latency, performance and efficiency for tech domain
 * Providing technical leadership in the maintenance team
