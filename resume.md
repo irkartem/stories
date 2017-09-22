@@ -1,24 +1,24 @@
-I am Artem Artemiev head of Maintenance team for JSC First (http://firstvds.ru http://firstdedic.ru http://firstssl.ru)
-You can reach me at +79086626110 (UTC+8) or by artemirk@gmail.com
+I am Artem Artemiev head of Maintenance team for First (http://firstvds.ru http://firstdedic.ru http://firstssl.ru)
+You can reach me at +79086626110 (UTC+8) or by artemirk@gmail.com 
 
+## Resposibilities
+* I’m responsible for latency, performance and efficiency for tech domain
+* Providing technical leadership in the maintenance team
+* Emergency response and capacity planning
+* Making infrastructure for automation of processes and daily routines
+* Lead Incident processes. Ensure company’s SLAs are met.
+* Troubleshooting and improving existing infrastructure and systems.
+* Hardware provisioning and ordering.
+* Formulating meaningful business metrics.
+* Serving as escalation point for unexpected issues
 ## Achievements
-* Developed and implemented monitoring tool (~ 1000 servers, redis, python) from hardware level and operating systems health upto business metrics. Improved availability time to 99.8%
+* Developed and implemented the monitoring tool (~ 1000 servers, redis, python) from hardware level and operating systems health upto business metrics. Improved availability time to 99.8%
 * Built automated provisioning and lifecycle management system for the datacenter
 * Implemented configuration management (python, bash, ansible)
 * Took part in building high availability service: billing of ~100K domains name servers without downtime service.
 * Implemented Cloud VPS product. based on cephfs and openstack.
 * Built "Payback" statistic system for calculate hardware payback value, which allow to find unprofitable resources and boost payback for ~ 30%
 * Reengineered VPS control panel system for VMmanager product. (Libvirtd, 300 servers, 18000 VPSes), boos reliability for customers VPSes.
-## Resposibilities
-* I’m responsible for latency, performance and efficiency for tech domain
-* Providing technical leadership in the maintenance team
-* Emergency response and capacity planning
-* Automation of processes and daily routines
-* Lead Incident processes. Ensure company’s SLAs are met.
-* Troubleshooting and improving existing infrastructure and systems.
-* Hardware provisioning and ordering.
-* Formulating meaningful business metrics.
-* Serving as escalation point for unexpected issues
 ## Retrospective
 * University degree
 * 4 years of experience leading the maintenance team. Ensuring that operational on-call schedules have proper coverage
