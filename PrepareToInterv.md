@@ -24,11 +24,41 @@
 * Are they passionate about programming?
 * their experiences in programming so far. What do they like/don't like?
 * apps you are developed? Can they explain the process? The challenges?
+* What will you be doing in 10 years?
+* Give me a summary of your work.
+* 
+
+
+#Linux
+* How do signal handlers work?
+* What is fork+exec?
+* Thread vs Process?
+* Describe the boot process?
+* How does dynamic linking work?
+*  how does a switch work.
+* glibc malloc()
+* process start 
+* pass data betwen processes
+* strace output is full of sbrk() and mmap() calls
+* Nagle’s algorithm,
+* TCP CORK
+* recursive resolvers
+* You type a URL in your browser and hit enter, what happens?”
+* What is saved on an inode?
+* DNS
+* load balancing
+* micro-service architecture
+* CAP theorem
+* consistency patterns
+* availability patterns
+* databases
+* caching
+* asynchronism patterns
 
 
 
 
-Algo
+## Algo
 * Ask them to test the problem with good and bad data.
 * Do they know and understand the basic data structures?
 * Do they know what a stable sort is?
@@ -46,3 +76,22 @@ Algo
 * By the end of each day, would you be capable of describing what you did on it?
 * Do you usually underestimate or overestimate tasks? How do you feel about that?
 * What was the hardest task for you to estimate?
+
+
+## Programming
+
+* simple calculator performing only additions and multiplications.
+
+
+
+
+## book
+* The Practice of System and Network Administration by Tom Limoncelli, Christina Hogan and Strata R Chalup
+* TCP Illustrated; Volume 3 by W. Richard Stevens, but you don’t really need to dive into the details of TCP for Transactions, which turned out to have security flaws. Understanding of IP, TCP/IP and UDP/IP is a must.
+* UNIX and Linux System Administration Handbook for system administration.
+* Modern Operating Systems by Andrew Tanenbaum
+*  Programming Pearls
+* The Linux Programming Interface: A Linux and UNIX System Programming Handbook 1st Edition
+by Michael Kerrisk  (Author)
+* Data Structures and Algorithms Using Python and C++ Paperback 
+
