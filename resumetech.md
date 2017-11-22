@@ -1,39 +1,37 @@
-I am Artem Artemiev head of Maintenance team for First (http://firstvds.ru http://firstdedic.ru http://firstssl.ru)
+I am Artem Artemiev head of Maintenance team for huge hosting project The First (http://firstvds.ru http://firstdedic.ru http://firstssl.ru)
 You can reach me at +79086626110 (UTC+8) or by artemirk@gmail.com 
 
 ## Resposibilities
-* I’m responsible for latency, performance and efficiency for company services (internal services and customer server)
-* I'm providing robust database services for company needs. MySQL and Redis. 
+* I’m responsible for latency, performance and efficiency the for company services
+* providing robust database services for company needs. MySQL and Redis. 
 * Lead incident processes. Ensure company’s SLAs are met. Handle post-mortem analysis 
-* Capacity planning and saturation test for services. 
-* Collaborate with team leads and stakeholders to ensure that we’re always building the best possible solution in the optimal way
-* Share expertise with other members, mentor developers about ___ENVIROPMEN___
-* Providing technical leadership in the maintenance team
+* Capacity planning and saturation testing for the services.
+* Share expertise with teammates in terms of scalability and operations
 * Making infrastructure for automation of processes and daily routines
-* Formulating meaningful tech-business metrics.
 * Serving as escalation point for unexpected issues
 * I am leading the research process direct to make our service better
 ## Achievements
-* Developed and implemented the monitoring tool (~ 1000 servers, redis, python) from hardware level and operating systems health upto business metrics. Improved availability time to 99.8%
+* Developed and implemented the monitoring tool (~ 2000 bare servers) from hardware level and operating systems health upto business metrics. Improved availability time to 99.8%
+* Made a delivery pipeline for internal products 
 * Built automated provisioning and lifecycle management system for the datacenter
 * Implemented configuration management (python, bash, ansible)
 * Took part in building high availability service: billing service, nameserver to serve ~100K domains.
-* Implemented Cloud VPS product. based on cephfs and openstack.
+* Implemented 'Cloud VPS' product. based on cephfs and openstack.
 * Built "Payback" statistic system for calculate hardware payback value, which allow to find unprofitable resources and boost payback for 27%
 * Reengineered VPS control panel system for VMmanager product. (Libvirtd, 1000 servers, 20000 VPSes).
 ## Retrospective
 * University degree
-* 5+ years of analyzing, troubleshooting, supporting and resolving issues with linux/freebsd servers, micro-services and multi-tiered application requiring 24x7 availability.
-* 5+ year experience of configuring and production usage of virtualizations: KVM, qemu, openvz, freebsd/Jail, docker
-* 4+ years of experience leading the maintenance team. Ensuring that operational on-call schedules have proper coverage
+* 5+ years of analyzing, troubleshooting, supporting and resolving issues with linux/freebsd servers and distributed systems
+* 4+ years expierence with interpreted languages including python and perl
+* 5+ years experience of configuring and production usage of virtualizations: KVM, qemu, openvz, freebsd/Jail, docker
+* 4+ years of soft skills experience leading the maintenance team. Ensuring that operational on-call schedules have proper coverage
 * 5+ years experience in Networking and Security.
 ## Skills
-___software development experience.___
-___You implemented and used logging, monitoring and distributed tracing systems.___
-__You will architect and design mission critical systems for scale, availability and resiliency in mind with minimal operational requirements.__
-* I can handle with care and be responsible for reliability of services
+* I can develop architect and design mission critical systems for scale in mind with minimal operational requirements
+* Every day get my hands dirty and read/write code
+* I don't forget about logging and monitoring
+* I take responsibility and can handle with care services in my domain 
 * I can migrate hundreds of VPSes (kvm, ovz) without downtime between datacenters and countries on a large scale.
-* I can build and manage scalable complex services
 ## Employment
 2009 - Current (8 years) Head of Maintenance team JSC First
 * I formed a department, 
@@ -45,12 +43,9 @@ __You will architect and design mission critical systems for scale, availability
 * developed and started in production HA VPS based on openstack and ceph fs.
 
 2006 - 2008 Leader of support team JSC First
-* Implemented best practices for teammate
+* Implemented best practices for the teammates
 * Started to make collaborative tool 
 
 2002 - 2006  Support team engineer JSC First
 * I got a lot of experience with hosting servers and virtualization. 
-
-
-HR test https://stackoverflow.com/jobs/154999/software-engineer-site-reliability-and-sticker-mule?so=i&pg=1&offset=16&q=Site+Reliability+Engineer
 
