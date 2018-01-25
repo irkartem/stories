@@ -179,19 +179,19 @@ Datacenter engineers change disks, repair the fans. CPU and RAM we change under 
 ### HDD smart stats
 I have 1800 smart reports from different HDD disks. There are 103 models.
 
-ATTRIBUTE_NAME |min | Expected value | max| Standard Deviation | Descr
---- | --- | --- | --- | --- | --- | --- 
-Temperature_Celsius | 14 | 25.81 |40|  4.09 | 25C very good temp for disk
-Power_On_Hours | 407 | 24033 |59363|  12910 | the biggest value 6 years. hmm
-Reallocated_Sector_Ct | 0 | 92.3496 |10728| 496 | 100 it is good threshold
-Raw_Read_Error_Rate | 0 |32416965|4294967295| 126899820.1 | small values is not an option, if fail happens then it will be huge count of it
-SSD Power_On_Hours | 10 |23159  |918502| 134915| > 2 years for ssd not bad
+|ATTRIBUTE_NAME |min | Expected value | max| Standard Deviation | Descr
+|--- | --- | --- | --- | --- | --- | --- 
+|Temperature_Celsius | 14 | 25.81 |40|  4.09 | 25C very good temp for disk
+|Power_On_Hours | 407 | 24033 |59363|  12910 | the biggest value 6 years. hmm
+|Reallocated_Sector_Ct | 0 | 92.3496 |10728| 496 | 100 it is good threshold
+|Raw_Read_Error_Rate | 0 |32416965|4294967295| 126899820.1 | small values is not an option, if fail happens then it will be huge count of it
+|SSD Power_On_Hours | 10 |23159  |918502| 134915| > 2 years for ssd not bad
 
 Hdd with Raw_Read_Error_Rate attribute 
 
-ATTRIBUTE_NAME |min | Expected value | max| Standard Deviation | Descr
---- | --- | --- | --- | --- | --- | --- 
-Power_On_Hours|0|25040|57178|12030|Broken hdd works 33 months +-16 months. Not intresting
+|ATTRIBUTE_NAME |min | Expected value | max| Standard Deviation | Descr
+|--- | --- | --- | --- | --- | --- | --- 
+|Power_On_Hours|0|25040|57178|12030|Broken hdd works 33 months +-16 months. Not intresting
 
 Our script work in DCIManager panel for datacenter infrastructure. 
 
