@@ -10,7 +10,7 @@
 5. [Statistics](#Statistics)
 
 
-It is 2017 year, but people who prefer dedicated servers still live :). I am working  in hosting company and we make diagnosis for servers before providing to customer. 
+It is 2018 year, but people who prefer the dedicated servers still alive :). I am working  in hosting company and we make diagnosis for servers before providing to customer. 
 Let's talk about diagnosis bare metal servers.
 
 We have an unattended server,it can became free status or we got the new servers. 
